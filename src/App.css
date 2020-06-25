@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+}
+
+.Routes {
+  margin-top: 50px;
+}
+
+.BottomNavbarRoutes {
+  margin-bottom: 50px;
+}
+
+hr {
+  width: 50%;
+}
+
+.upVote {
+  color: #ffffff;
+  background-color: #108301;
+  border: none;
+  line-height: 1.4;
+  padding: 10px 15px;
+}
+
+.downVote {
+  color: #ffffff;
+  background-color: #E00000;
+  border: none;
+  line-height: 1.4;
+  padding: 10px 15px;
+}
+
+button:hover.upVote, button:focus.upVote {
+  background-color: #0C6001;
+}
+
+button:hover.downVote, button:focus.downVote{
+  background-color: #AD0000;
+}
+
+
+
+nav {
+
+  margin:0; 
+  padding:0; 
+  width:200px;
+  position: fixed;
+}
+	  
+nav li {
+  margin-top:5px;
+  list-style-type: none;
+}
+
+nav li a {
+  text-decoration:none; 
+  display:block; 
+  padding:5px; 
+  color:#ffffff; 
+  background-color: black; 
+  text-align:center; 
+  border:1px solid #000000; 
+  border-radius:6px;}
+
+
+li a:hover:not(.active), li a:focus:not(.active) {
+  background-color: #707070;
+}
+
+.active {
+  background-color: #791CAB;
+}
+
+.error {
+  color: darkred;
+  border: 1px black solid;
+}
